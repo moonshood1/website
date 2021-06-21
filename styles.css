@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+html,
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+.bg-dark {
+  background: rgba(128, 128, 128, 0.201) !important;
+}
+
+.padding-top {
+  padding-top: 2%;
+}
+
+img.image-responsive {
+  width: 250px;
+}
+
+.only-pc {
+  display: none;
+}
+
+a img {
+  cursor: pointer;
+}
+
+p {
+  color: rgb(135, 132, 132);
+}
+
+.card {
+  max-width: 100%;
+}
+
+.phone-design {
+  display: block;
+}
+
+.payqin-flow {
+  background: transparent linear-gradient(109deg, #c471ed, #4a90e2) 0 0
+    no-repeat padding-box !important;
+  color: white !important;
+}
+.payqin-flow:hover {
+  background: transparent linear-gradient(109deg, #4a90e2, #c471ed) 0 0
+    no-repeat padding-box !important;
+}
+
+img.is-iphone {
+  height: 250px;
+}
+
+.only-mobile {
+  display: block;
+}
+
+.offcanvas.offcanvas-bottom {
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 8px;
+    height: 70px;
+  }
+  .padding-top {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  img.image-responsive {
+    width: 520px;
+  }
+
+  .only-pc {
+    display: block;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+  p {
+    font-size: x-large;
+    color: rgb(135, 132, 132);
+  }
+
+  .card {
+    width: 56rem;
+  }
+  .phone-design {
+    display: flex;
+  }
+
+  img.is-iphone {
+    height: 450px;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 80px;
+  }
+  p {
+    font-size: xx-large;
+  }
+
+  .card {
+    width: 65rem;
+  }
+  .footer {
+    padding-top: 10px;
+    height: 100px;
+  }
+}
